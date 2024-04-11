@@ -169,3 +169,45 @@ as in the example: the `class name is javaBasics` and `file name is also javaBas
         - Destination type >>> Source Type
         - This is the correct order:
             `byte -> short -> int -> float -> long -> double`
+
+### TYPE CASTING
+
+**Type Casting** is the situation where, we are trying to reduce the values but Java suggests it will cause Data loss, but we want to assign the values to the new variables.
+This conversion is known as Type Casting.
+
+- This is also called as:
+    - Narrowing Conversion
+    - Explicit Conversion
+
+- For example: 
+
+    ```
+     float a = 25.0f;
+     int b = a;
+    ```
+
+    - There will be loss of Data when we convert the `float` to `int`. The decimal value won't be availabel in the `int`.
+    - That's why java will try to stop it and throw an error.
+
+    - To still do the converion, we need to write the following line: `int b = (int)a;`
+    - The above line will not throw error.
+    - This is called Type Casting in Integer.
+
+### TYPE PROMOTION IN EXPRESSIONS
+
+- It is knid of a phenomena in Java.
+- it follows 2 rules:
+    - Java automatically promotes each `byte`, `short`, or `char` operand to **`int`** when evaluating an expression.
+    
+    - If any one of the operand is `long`, `float`, or `double` the whole expression is **promoted** to **`long`, `float`, or `double`** respectively.
+
+    - for example:
+
+        ```
+        char a = 'a';
+        short b = 50;
+
+        a + b
+        ```
+
+        - the Type promotion will first convert both `char` and `short` to **`int`**  
