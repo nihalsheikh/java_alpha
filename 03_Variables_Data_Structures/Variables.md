@@ -210,4 +210,4 @@ This conversion is known as Type Casting.
         a + b
         ```
 
-        - the Type promotion will first convert both `char` and `short` to **`int`**  
+        - the Type promotion will first convert both `char` and `short` to **`int`**
