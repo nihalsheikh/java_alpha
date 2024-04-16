@@ -9,7 +9,7 @@ public class typeCasting {
 
         int b = (int)a;  // this is Type Casting
 
-        System.out.println("float to int: " + b);
+        System.out.println("float a to int a = " + b);
 
 
         // string to num
@@ -19,6 +19,7 @@ public class typeCasting {
         int num = ch;
         int num2 = ch2;
 
-        System.out.println("int to char: " + num + " " + num2);
+        System.out.println("a in int = " + num);
+        System.out.println("b in int = " + num2);
     }
 }

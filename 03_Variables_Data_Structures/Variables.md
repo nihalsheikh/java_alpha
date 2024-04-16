@@ -211,3 +211,18 @@ This conversion is known as Type Casting.
         ```
 
         - the Type promotion will first convert both `char` and `short` to **`int`**
+        - Remember, 'b' when converted to `int` type, its value is 98, similarly value of 'a' is 97.
+        - Type Promotion works with Expresions.
+        - Can't convert `char` to `int`.
+
+### HOW IS OUR CODE RUNNING?
+
+**JDK: JAVA DEVELOPMENT KIT**
+    - **JRE: JAVE RUNTIME ENVIRONMENT**
+        - **JVM: JAVA VIRTUAL MACHINE**
+
+- JRE
+    - It is a module of JDK, which has a Virtual Machine inside it and some Libraries.
+
+- Sequence in which our java code runs
+`(Source code .java) -->> (Compiler) -->> (Byte Code .class) -->> (JVM) -->> (Native Code) -->> Execute`
