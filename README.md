@@ -30,3 +30,4 @@ Daily progress of Java Programming covered.
             - [x] Table categorizing data types
         - [x] Taking user input in Java
         - [x] Practise Problems
+- [x] Operators
