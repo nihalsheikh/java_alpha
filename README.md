@@ -31,3 +31,4 @@ Daily progress of Java Programming covered.
         - [x] Taking user input in Java
         - [x] Practise Problems
 - [x] Operators
+    - [x] Types of Operators in Java

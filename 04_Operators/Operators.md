@@ -18,3 +18,14 @@
 - Logical Operator
 - Bitwise Operator
 - Assignment Operator
+
+#### Arithmetic Operator
+
+- **Binary**:
+    - `+`, `-`, `*`, `/`, `%`
+    - Binary generally mean 2
+    - it consists of 2 operands
+
+- **Unary**
+    - `++`, `--`
+    - Unary generally means single unit.
