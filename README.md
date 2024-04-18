@@ -32,3 +32,4 @@ Daily progress of Java Programming covered.
         - [x] Practise Problems
 - [x] Operators
     - [x] Types of Operators in Java
+        - [x] Arithmetic Operators
